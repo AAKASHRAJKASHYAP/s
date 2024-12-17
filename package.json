@@ -5,7 +5,7 @@
   "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node hello.js"
+    "start": "node hello.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AAKASHRAJKASHYAP/NodeJs/issues"
   },
-  "homepage": "https://github.com/AAKASHRAJKASHYAP/NodeJs#readme"
+  "homepage": "https://github.com/AAKASHRAJKASHYAP/NodeJs#readme",
+  "dependencies": {
+    "url": "^0.11.4"
+  }
 }

@@ -1,5 +1,5 @@
-const fs=require("fs");
-const os=require("os");
+// const fs=require("fs");
+// const os=require("os");
 // sync..
 //fs.writeFileSync('./test.txt',"Hi my first text file");
 
@@ -16,3 +16,5 @@ const os=require("os");
 //         console.log(result);  // If the file is read successfully, log its content
 //     }
 // });
+
+
