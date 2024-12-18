@@ -1,4 +1,4 @@
-const http=require("http");
+//const http=require("http");
 const express =require("express");
 const app=express();
 
@@ -7,9 +7,13 @@ app.get("/",(req,res)=>{
 });
 
 app.get("/about",(req,res) =>{
-   return res.send("Hello from About Page");
+   return res.send("Hello from About Page"+" name is "+req.query.name+" age is "+req.query.age
+   );
 });
 
-const myServer=http.createServer(app);
 
-myServer.listen(8000,()=>console.log("Server Started"));
+app.listen(8000,()=>console.log("server started"));
+
+//const myServer=http.createServer(app);
+
+//myServer.listen(8000,()=>console.log("Server Started"));
